@@ -33,7 +33,7 @@ A custom Twitch bot built for [chenchen53](https://twitch.tv/chenchen53) that in
 ## Setup
 
 1. Clone the repository
-2. Create a `.env` file with the following variables:
+2. Create a `.env` file with the following variables (I left 3 in bot.py because im lazy):
 ```env
 CLIENT_ID=your_twitch_client_id
 CLIENT_SECRET=your_twitch_client_secret
