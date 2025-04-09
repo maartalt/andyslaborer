@@ -1,0 +1,81 @@
+Metadata-Version: 2.4
+Name: twitchio
+Version: 3.0.0b4
+Summary: A powerful, asynchronous Python library for twitch.tv.
+Author: PythonistaGuild
+Project-URL: Homepage, https://github.com/PythonistaGuild/TwitchIO
+Project-URL: Documentation, https://twitchio.dev
+Project-URL: Issue tracker, https://github.com/PythonistaGuild/TwitchIO/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp<4,>=3.9.1
+Provides-Extra: docs
+Requires-Dist: sphinx-wagtail-theme; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: docutils<0.18; extra == "docs"
+Requires-Dist: sphinxcontrib-napoleon; extra == "docs"
+Requires-Dist: sphinxcontrib-asyncio; extra == "docs"
+Requires-Dist: sphinxcontrib-websupport; extra == "docs"
+Requires-Dist: Pygments; extra == "docs"
+Requires-Dist: sphinx-hoverxref; extra == "docs"
+Requires-Dist: sphinxcontrib_trio; extra == "docs"
+Provides-Extra: starlette
+Requires-Dist: starlette; extra == "starlette"
+Requires-Dist: uvicorn; extra == "starlette"
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pyright; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Dynamic: license-file
+
+> [!IMPORTANT]
+> Version **3** is currently a BETA release.
+
+![](https://raw.githubusercontent.com/TwitchIO/TwitchIO/main/logo.png)
+[![](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://www.python.org)
+![Pyright Strict](https://img.shields.io/badge/Pyright-Strict-b8dbb4)
+![GitHub License](https://img.shields.io/github/license/PythonistaGuild/twitchio)
+
+A powerful async Python library for the twitch API and EventSub. Fully featured, modern Object-Orientated design
+with stateful objects.
+
+TwitchIO provides ease of use when accessing the Twitch API with powerful extensions and hot-reloadable modules to help create
+and manage applications on twitch.
+
+**Features:**
+
+- Modern ``async`` Python using ``asyncio``
+- Fully annotated and complies with the ``pyright`` strict type-checker
+- Intuitive with ease of use, using modern object orientated design
+- Feature full including extensions for ``chat bots``, running ``routine tasks`` and ``playing sounds`` on stream (Conduits support soon...)
+- Easily manage ``OAuth Tokens`` and data
+- Built-in ``EventSub`` support via both ``Webhook`` and ``Websockets``
+
+### Documentation
+[Documentation](https://twitchio.dev/)
+   
+Getting Started
+--------------------------------
+[Installing](https://twitchio.dev/en/latest/getting-started/installing.html)
+
+[Quickstart](https://twitchio.dev/en/latest/getting-started/quickstart.html)
+
+[Examples](/examples)
+
+### Support
+For support using TwitchIO, please join the official [support server](https://discord.gg/RAKc3HF) on [Discord](https://discord.com/)
+
+[![Discord Banner](https://discordapp.com/api/guilds/490948346773635102/widget.png?style=banner2)](https://discord.gg/RAKc3HF)
+
